@@ -61,12 +61,13 @@ function draw() {
         playerArrows[i].body
       );
 
-      /*if (board1Collision || board2Collision) {
+      if (board1Collision || board2Collision) {
         score += 5;
-      }*/
+      
 
-      if (board1Collision.collided && board2Collision.collided) {
+      /*if (board1Collision.collided && board2Collision.collided) {
         score += 5;
+        }*/
       
 
       /*if (board1Collision.collided || board2Collision.collided) {
@@ -119,6 +120,7 @@ function draw() {
 
   if (numberOfArrows = 0) {
     gameOver();
+    
   
 
   /*if (numberOfArrows == 0) {
