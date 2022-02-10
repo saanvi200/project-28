@@ -153,9 +153,9 @@ function keyReleased() {
       var angle = playerArcher.body.angle;
       playerArrows[playerArrows.length - 1].shoot(angle);
     }
+   }
   }
 }
-
 function gameOver() {
   swal(
     {
@@ -174,5 +174,5 @@ function gameOver() {
   );
 }
 
-} 
-  }
+
+  
